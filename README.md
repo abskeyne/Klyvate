@@ -46,43 +46,6 @@ Built with **HTML, CSS, and plain JavaScript**, Klyvate runs by opening `index.h
 
 The app uses relative assets and ordinary deferred scripts. Dependency installation, a build step, and a local server are unnecessary.
 
-### Project structure
-
-All six files belong at the repository root.
-
-| File | Purpose |
-| --- | --- |
-| `index.html` | App shell, navigation, metadata, and script references |
-| `styles.css` | Responsive styles, themes, focus states, and print rules |
-| `app.js` | Directory, search, filters, favorites, theme, and navigation |
-| `tools.js` | Tool implementations, validation, file processing, and cleanup |
-| `favicon.svg` | Klyvate icon |
-| `README.md` | Setup, deployment, and project documentation |
-
-Navigation uses hash routes such as `#/tools/image-resize`, `#/about`, and `#/privacy`. Reloading a tool opens the root document and restores the selected view.
-
-## Deployment
-
-### Vercel
-
-Import the repository with `index.html` at its root and configure these settings.
-
-| Setting | Value |
-| --- | --- |
-| Framework Preset | Other |
-| Root Directory | `./` |
-| Build Command | Enable Override and leave empty |
-| Output Directory | `./` |
-| Install Command | Leave empty |
-
-Deploy the repository as static files. Hash routes work without server rewrite rules. [Vercel deployment documentation](https://vercel.com/docs/builds/configure-a-build#skip-build-step)
-
-### GitHub Pages
-
-Commit the six files to the repository root. In the repository's Pages settings, choose deployment from a branch, then select the desired branch and its root folder. Relative assets and hash routing support repository subpaths.
-
-The same folder can also be served by another static host.
-
 ## Privacy
 
 Tool inputs are processed in the current browser tab. Klyvate does not upload selected files or send pasted text to a server. It has no accounts, payments, backend, analytics, advertising, or third-party assets.
