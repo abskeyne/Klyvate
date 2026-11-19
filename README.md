@@ -2,7 +2,7 @@
 
 ### Useful tools. No fuss.
 
-Klyvate is a collection of **18 free browser utilities** for images, text, developer data, and everyday calculations. Files and text are processed locally in the current tab, and every tool is available without an account.
+Klyvate is a collection of **free browser utilities** for images, text, developer data, and everyday calculations. Files and text are processed locally in the current tab, and every tool is available without an account.
 
 Built with **HTML, CSS, and plain JavaScript**, Klyvate runs by opening `index.html` and can be deployed as a static website.
 
