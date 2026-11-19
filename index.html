@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resize images, clean up text, convert data, and make quick calculations. Klyvate is a free collection of tools that run in your browser.">
+  <meta name="theme-color" content="#FAFAF8">
+  <title>Klyvate — Useful tools. No fuss.</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./tools.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#/" aria-label="Klyvate home">
+        <img src="./favicon.svg" width="32" height="32" alt="">
+        <span>klyvate<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a id="tools-nav" href="#/">Tools</a>
+        <a id="about-nav" href="#/about">About</a>
+        <button id="theme-toggle" class="icon-button theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden></button>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell site-main" tabindex="-1">
+    <noscript>
+      <div class="info-page">
+        <h1>Klyvate needs JavaScript</h1>
+        <p>Enable JavaScript in your browser to use the tools on this page.</p>
+      </div>
+    </noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <p class="footer-note">Your files and text are processed in this browser.</p>
+        <p class="footer-copyright">© <span id="year"></span> Klyvate</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#/about">About</a>
+        <a href="#/privacy">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
